@@ -1,0 +1,48 @@
+
+
+*{
+    font-family : 'Climate Crisis', sans-serif;
+    text-align: center;
+}
+body{
+    background:red;
+}
+h1{
+    padding-top:7rem;
+    font-size:64px;
+    color:white
+}
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#timer{
+    background-color: white;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    border-radius: 50px;
+    padding-left:4rem; padding-right:4rem;
+    padding-top:2rem; padding-bottom : 2rem;
+}
+#min{
+    font-size: 32px;
+}
+#count {
+    margin-right:9rem;
+    font-size:32px;
+}
+#play {
+    background:blue;
+    padding:1rem;
+    color:#fff;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+#play:hover{
+    opacity: 0.8;
+}
